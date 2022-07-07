@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;700&display=swap');
+
+.date{
+    display: flex;
+}
+
+.date img{
+    width: 400px;
+    margin-right: 35px;
+}
+
+table{
+    display: table;
+    width: 950px;
+}
+
+thead, tbody{
+    text-align: left;
+}
+
+td, th{
+    padding: 10px;
+}
+
+.photo-contact h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.photo-contact p{
+    margin-bottom: 5px;
+}
+
+.boutton-ticket, button{
+    border: 1px solid rgb(188, 35, 35);
+    color: rgb(188, 35, 35);
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.boutton-ticket:hover{
+    color: white;
+    background-color:rgb(188, 35, 35) ;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+fieldset{
+    border: none;
+    border-top: 1px solid black;
+    display: table;
+    margin-bottom: 50px;
+}
+
+fieldset p{
+    display: table-row;
+}
+
+label, input,select{
+    display: table-cell;
+    margin-bottom: 15px;
+}
+
+label{
+    width: 175px;
+}
+
+legend{
+    padding: 15px;
+    color: rgb(188, 35, 35);
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(188, 35, 35);
+    color: white;
+    font-weight: 600;
+}
+
+.boutton-centre{
+    text-align: center;
+}
+
+
+

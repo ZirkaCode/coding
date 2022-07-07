@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-image: url("../img/header.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    /* display: flex; */
+    width: 100%;
+}
+
+.social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    right: 1.25%;
+    top: 0;
+    
+}
+
+.zoom-in:hover{
+    transform: scale(2);
+}
+
+.social a{
+    width: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 50%;
+    color: black;
+}
+
+.wrapper{
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+header ul li a:hover,
+header ul li.active a {
+    background-color: #fff;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+.titre-style{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.bloc-musique{
+    width: 1000px;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+
+.main-bloc{
+    display: flex;
+    margin-top: 100px;
+}
+
+.main-bloc img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 35px 0 35px;
+}
+
+.main-article{
+    width: 1005px;
+}
+
+.main-article p{
+   width: 950px;
+}
+.main-article p:last-of-type{
+    margin-bottom: 50px;
+}
+
+aside{  
+    width: 270px;
+    background-color: rgb(188, 35, 35);
+}
+
+aside h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+aside ul{
+    padding: 0;
+    margin-left: 15px;
+}
+
+aside ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+aside ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.mot-blanc{
+    color: #fff;
+    font-weight: 600;
+}
+.style-boutton{
+    border: 1px solid rgb(188, 35, 35);
+    padding: 8px;
+    color: rgb(188, 35, 35);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.style-boutton:hover{
+    background-color: rgb(188, 35, 35) ;
+    color: white;
+}
+
+.discographie{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.cover-album{
+    display: flex;   
+}
+
+.cover-album img{
+    max-width: 251px;
+    margin-right: 5px;
+}
+
+footer{
+    margin-top: 100px;
+    padding:25px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/random_grey_variations.png");
+    color: white;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navigation ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.pro-date-tour p{
+    line-height: 1.5;
+}
+
+footer p{
+    margin: 0;
+}
+.contact p{
+    margin-bottom: 10px;
+}
+
+.perdu-avance img,
+.comment-loin img,
+.chant-sirene img {
+    width: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.perdu-avance img, .comment-loin img{
+    float: left;
+}
+.chant-sirene img{
+    float: right;
+}
+
+
+
